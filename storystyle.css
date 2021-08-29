@@ -1,0 +1,189 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/background.jfif);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.navbar{
+    display: flex;
+    height: 12%;
+    align-items: center;
+}
+.menu{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 60px;
+    position: relative;
+}
+nav ul li::after{
+    content: "";
+    background:#fba91a;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+.ac, .nav ul li:hover
+{
+    line-height: 22px;
+    border-radius: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.container1{
+    display: flex;
+    color: #fff;
+}
+.container1 h5{
+    font-size: 20px;
+    margin:5px 0 0 40px;
+}
+.container1 .blog1{
+    margin-top: 100px;
+    display: flex;
+    width: 500px;
+    height: 400px;
+}
+.container1 .blogone{
+    margin: 100px 0 0 10px;
+}
+#hfive{
+    font-size: 20px ;
+    color: #fff;
+    margin: 5px 0 0 50px;
+}
+.container1 .blogone .link a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.blogone button{
+    margin-top: 60px;
+    width: 200px;
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    position: relative;
+    transition: 1s;
+}
+.blogone button:hover{
+    box-shadow: inset 200px 0 0 0 #009688;
+}
+.container2{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    display: flex;
+}
+.container2 .blog2{
+    margin: 200px 0 0 10px;
+    color: #fff;
+}
+.container2 .blog2 button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.container2 .blog2 button{
+    margin-top: 30px;
+    width: 200px;
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    position: relative;
+    background-color: #fff;
+    transition: 1s;
+}
+.container2 .blog2 button:hover{
+    box-shadow: inset 200px 0 0 0 #009688;
+}
+.container2 .blogtwo{
+    padding-right: 8%;
+    margin-top: 100px;
+    width: 285.4px;
+    height: 400px;
+}
+.container2 h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.container3{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/background3.jpg);
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    display: flex;
+}
+.container3 .blog3 img{
+    margin-top: 30px;
+    width: 285,54px;
+    height: 400px;
+    object-fit: cover;
+}
+.container3 .blogthree{
+    margin: 80px 0 0 10px;
+    color: #fff;
+}
+.container3 .blogthree a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.container3 .blogthree button{
+    margin-top: 40px;
+    width: 200px;
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    position: relative;
+    background-color: #fff;
+    transition: 1s;
+}
+.container3 .blogthree button:hover{
+    box-shadow: inset 200px 0 0 0 #009688;
+}

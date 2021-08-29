@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login and Register</title>
+        <link rel="stylesheet" href="./loginpagecss.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="form">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <div class="social-icons">
+                    <h5> SAIGON Forum </h5>
+                </div>
+                <form id="dn" class="input-grp">
+                    <input type="text" class="input-field" placeholder="Tên Đăng Nhập" required>
+                    <input type="text" class="input-field" placeholder="Mật Khẩu" required>
+                    <input type="checkbox" class="check-box"><span>Lưu mật khẩu</span>
+                    <button type="submit" class="sumbit-btn">Đăng nhập</button>
+                </form>
+                <form id="dk" class="input-grp">
+                    <input type="text" class="input-field" placeholder="Tên Đăng Nhập" required>
+                    <input type="email" class="input-field" placeholder="Gmail" required>
+                    <input type="text" class="input-field" placeholder="Mật Khẩu" required>
+                    <input type="checkbox" class="check-box"><span>Tôi đồng ý những điều khoản và điều kiện</span>
+                    <button type="submit" class="sumbit-btn">Đăng kí</button>
+                </form>
+                
+            </div>
+        </div>
+
+        <script>
+            var a = document.getElementById("dn");
+            var b = document.getElementById("dk");
+            var c = document.getElementById("btn");
+
+            function register(){
+                a.style.left = "-400px";
+                b.style.left = "50px";
+                c.style.left = "110px";
+            }
+            function login(){
+                a.style.left = "50px";
+                b.style.left = "450px";
+                c.style.left = "0px";
+            }
+
+
+        </script>
+
+
+
+    </body>
+</html>
